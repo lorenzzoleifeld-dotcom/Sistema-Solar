@@ -1,0 +1,167 @@
+body {
+    font-size: 18px;
+    background-image: url(https://img.freepik.com/vetores-gratis/traz-papel-de-parede-do-espaco-noturno-com-um-campo-estelar-brilhante_1017-53512.jpg?semt=ais_hybrid&w=740&q=80);
+}
+.começo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sistema {
+    text-align: center;
+}
+#rochosos h2 {
+    margin-top: 4rem;
+    text-align: center;
+}
+img {
+    width: 25rem;
+    transition: transform 0.7s ease;
+}
+img:hover {
+    transform: skew(5deg) scale(0.93);
+}
+img:active {
+    transform: skew(-5deg) scale(0.93);
+}
+p {
+    color: white;
+}
+h1, h2, h3 {
+    color: orange;
+}
+#Mercúrio h3 {
+    color: gray;
+}
+#Vênus h3{
+    color: white;
+}
+#Terra h3 {
+    color: aqua;
+}
+h1 {
+    color: orangered;
+}
+nav .Mercúrio {
+    color: gray;
+}
+nav .Vênus {
+    color: white;
+}
+nav .Terra {
+    color: aqua;
+}
+nav .Marte {
+    color: orangered;
+}
+nav {
+    margin-top: 1rem;
+    border: 2px solid orange;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: blue;
+}
+
+#mercurio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#venus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#terra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#marte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curiosidades li {
+    color: white;
+}
+.curiosidades b {
+    color: gray;
+}
+.curiosidades  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Mercúrio, #Vênus, #Terra, #Marte {
+    margin-top: 2rem;
+}
+@media (max-width: 762px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 314px) {
+    img {
+        width: 14rem;
+    }
+}
+.interaçao {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px) {
+   .botão {
+    flex-direction: row;
+   }
+}
+button {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0.5rem;
+    transition: 0.4s ease;
+    color: blue;
+    background: orange;
+}
+button:hover {
+    background: blue;
+    color: rgb(175, 175, 175);
+}
+button:active {
+    transform: scale(0.96);
+}
+input:focus {
+    border: 3px solid black;
+}
+input {
+    font-size: 16px;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+@media (max-width: 768px) {
+    #input, #btn {
+        font-size: 16px;
+    }
+}
+@media (max-width: 280px) {
+    #input, #btn {
+        font-size: 0.8rem;
+    }
+}
+li {
+    margin-top: 0.9rem;
+}
+.estilos {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
