@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const botao = document.querySelector(".btn");
 const entrada = document.querySelector(".input");
 const lista = document.querySelector(".lista")
@@ -13,5 +14,6 @@ botao.addEventListener("click", () => {
         } else {
             novoItem.classList.add("estilos");
         }
+        })
         })
         })
